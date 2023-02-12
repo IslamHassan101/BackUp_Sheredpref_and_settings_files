@@ -1,6 +1,5 @@
 package com.islam.backup_sheredpref_and_settings_files
 
-import android.app.backup.SharedPreferencesBackupHelper
 import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
@@ -27,7 +26,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
 
 @Composable
 fun SharedFiles(editor: SharedPreferences.Editor,sharedPreferences: SharedPreferences) {
